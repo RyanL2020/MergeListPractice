@@ -9,8 +9,8 @@ let l2 = [4,5,6]
 //   newSortedArray = newArray.sort()
 //  console.log(newSortedArray)
 // };
- let nums = [3,2,2,3]
- let val = 3
+//  let nums = [3,2,2,3]
+//  let val = 3
 // var removeElement = function(nums, val) {
 //     while (nums.length < val ) {
 //       return nums
@@ -27,8 +27,32 @@ let l2 = [4,5,6]
 //     //nums.length = j; // Chop the surplus values - not needed for LC submission
 //     return j;
 // };
-var removeElement = function (nums, val) {
-    nums = nums.filter((num) => num !== val);
-    return nums;
-};
- console.log(removeElement(nums, val));
+// var removeElement = function (nums, val) {
+//     nums = nums.filter((num) => num !== val);
+//     return nums;
+// };
+//  console.log(removeElement(nums, val));
+// let digits = [1,2,3]
+// var plusOne = function(digits) {
+//   let newArray = []
+//   let largest = digits[0];
+//   for (let i = 0; i < digits.length ; i++) {
+//     if (largest < digits[i]) {
+//       largest = digits[i] + 1
+
+//     }
+//   }
+//    console.log(largest)
+    
+// };
+// plusOne(digits)
+
+var myStringArray = [1,2,3];
+var arrayLength = myStringArray.length;
+var newArray = []
+for (var i = 0; i < arrayLength; i++) {
+    if (myStringArray[i] > 2) {
+      newArray.push(myStringArray[i] + 1)
+       console.log(newArray)
+    }
+}
